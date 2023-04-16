@@ -20,7 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70驱动 温度分析 串口发送 串口接收" />
+    <list default="true" id="fd96c7bd-ed07-4128-8cdc-1beb37de8d54" name="更改" comment="LMT70驱动 温度分析 串口发送 串口接收">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ads1923" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,12 +57,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="LMT70" />
-                    <option name="lastUsedInstant" value="1681477320" />
+                    <option name="branchName" value="DMA" />
+                    <option name="lastUsedInstant" value="1681652353" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="ads1923" />
+                    <option name="lastUsedInstant" value="1681652340" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1681477319" />
+                    <option name="lastUsedInstant" value="1681651887" />
                   </RecentBranch>
                 </list>
               </option>
@@ -95,6 +102,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "DMA",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/17795/STM32F407/cubemxstudy",
     "node.js.detected.package.eslint": "true",
@@ -140,7 +148,7 @@
       <workItem from="1681477200360" duration="3157000" />
       <workItem from="1681481024707" duration="28572000" />
       <workItem from="1681650699858" duration="153000" />
-      <workItem from="1681650876193" duration="518000" />
+      <workItem from="1681650876193" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="模板">
       <created>1681477243210</created>
@@ -310,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681648050842</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="LMT70驱动 温度分析 串口发送 串口接收">
+      <created>1681651430321</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681651430321</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
