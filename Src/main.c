@@ -104,7 +104,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
     //注册重定向串口号
     RetargetInit(&huart1);
-    HAL_ADC_Start_DMA(&hadc1, (uint32_t *)ADC_value, 1);
+    HAL_ADC_Start_DMA(&hadc1, (uint32_t *)&ADC_value, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -114,7 +114,7 @@ int main(void)
         //ADC_value = Get_Adc(&hadc1);
         ADC_voltage = ADC2Voltage(ADC_value);
         LMT70_temp = LMT70Voltage2Temperature(ADC_voltage);
-        printf("ADC_value = %04d \r\n", ADC_value);
+        printf("ADC_value = %08d \r\n", ADC_value);
         printf("ADC_voltage = %0.1fmv \r\n", ADC_voltage);
         printf("LMT70_temp = %0.2f℃ \r\n", LMT70_temp);
         printf("\r\n");
